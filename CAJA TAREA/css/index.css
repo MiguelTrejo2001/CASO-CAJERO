@@ -1,0 +1,230 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 100px;
+                margin-left: 280px;
+                margin-bottom: 100px;
+                background-color:white;
+            }
+            
+            .container {
+                margin-right: 2px;
+                display: flex;
+            }
+            
+            .img {
+                height: 600px;
+                width: 800px;
+                margin-left: 10px;
+                margin-top: 10px;
+                display: flex; 
+            }
+            
+            .img3 {
+                height: 600px;
+                width: 800px;
+                margin-left: 10px;
+                margin-top: -90px;
+                display: flex; 
+            }
+
+            .caja1 {
+                height: 100px;
+                width: 100px;
+                margin-top: -100px;
+                margin-bottom: 100px;
+            }
+
+            .textoA{
+                margin-left: 45px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .textB{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-top: -70px;
+                margin-left:-58px;
+            }
+            
+            .textC{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: -10px;
+            }
+            .caja2 {
+                height: 50px;
+                width: 300px;
+                margin-left: 68px;
+                margin-top: 110px;
+                border-color: black;
+                text-align: center;
+                
+            }
+            
+            h4 {
+                color: rgb(30, 30, 33);
+                font-size: 1.6em;
+                font: 'arial';
+                margin-left: 70px;
+                margin-top: -20px;
+                position: absolute;
+                left: 455px;
+                top: 200px;
+            }
+            h3 {
+                color: rgb(30, 30, 33);
+                font-size: 1.6em;
+                font: 'arial';
+                margin-left: 20px;
+                margin-top: -50px;
+                position: absolute;
+                left: 455px;
+                top: 200px;
+            }
+            h2 {
+                color: rgb(30, 30, 33);
+                font-size: 1.6em;
+                font: 'arial';
+                margin-left: -50px;
+                margin-top: -100px;
+                position: absolute;
+                left: 455px;
+                top: 200px;
+            }
+
+            .button2 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 175px;
+                margin-top: 100px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .button3 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 330px;
+                margin-top:100px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .button4 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 92px;
+                margin-top: 155px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .button5 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 249px;
+                margin-top: 155px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .button6 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 405px;
+                margin-top: 155px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonREGRE {
+                width: 150px;
+                height: 50px;
+                margin-left: -560px;
+                margin-top: 220px;
+                background-color: rgb(255, 0, 0);
+                color: white;
+                font-size: 17px;
+                
+            }
+
+            .buttonB {
+                width: 120px;
+                height: 50px;
+                position: absolute;
+                margin-left: 180px;
+                margin-top: 116px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonC {
+                width: 120px;
+                height: 50px;
+                position: absolute;
+                margin-left: 310px;
+                margin-top: 116px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonD {
+                width: 120px;
+                height: 50px;
+                position: absolute;
+                margin-left: 109px;
+                margin-top: 180px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonE {
+                width: 120px;
+                height: 50px;
+                position: absolute;
+                margin-left: 237px;
+                margin-top: 180px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonF {
+                width: 120px;
+                height: 50px;
+                position: absolute;
+                margin-left: 365px;
+                margin-top: 180px;
+                margin-bottom: 50px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                
+            }
+            .buttonG {
+                width: 120px;
+                height: 50px;
+                margin-left: -528px;
+                margin-top: 240px;
+                background-color: rgb(255, 0, 0);
+                color: white;
+                font-size: 17px;
+                
+            }
+
+            

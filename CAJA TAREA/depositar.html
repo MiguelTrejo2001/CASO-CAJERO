@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Caso cajero</title>
+</head>
+
+<body class="container">
+
+    <div>
+        <h3 class ="textB">Seleccione el monto a depositar</h3>
+        <img class="img3" src="img/CajaCajero.png">
+    </div>
+    
+    <button class="button2" onclick="alerta100()">S/.100</button> 
+    <button class="button3" onclick="alerta200()">S/.200</button> 
+    <button class="button4" onclick="alerta500()">S/.500</button> 
+    <button class="button5" onclick="alerta1000()">S/.1000</button> 
+    <button class="button6" onclick="alerta2000()">S/.2000</button>
+
+
+    <form action="menudeopciones.html" method="get">
+    <button class="buttonREGRE">Regresar</button>
+    </form>
+
+    <script>
+        var radio = prompt("INGRESE EL NÚMERO DE CUENTA DEL USUARIO AL QUE DESEA DEPOSITAR: ");
+    </script>
+    
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

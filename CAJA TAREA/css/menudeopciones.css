@@ -1,0 +1,85 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        img {
+            height: 600px;
+            width: 800px;
+            margin-top: 6px;
+            margin-left: 12px;
+            display: flex;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .textB{
+            margin-left: 5px;
+            margin-top: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .botonCON {
+            width: 170px;
+            height: 60px;
+            position: absolute;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(255, 255, 255);
+            font-size: 17px;
+            margin-top: -0px;
+            margin-left: -470px;
+            
+        }
+        
+        .botonDEP {
+            width: 170px;
+            height: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: absolute;
+            margin-left: -470px;
+            margin-top: -90px;
+            margin-bottom: 200px;
+            background-color: rgb(255, 255, 255);
+            font-size: 17px;
+            
+        }
+        
+        .botonRET {
+            width: 170px;
+            height: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: absolute;
+            margin-left: -670px;
+            margin-top: -90px;
+            margin-bottom: 200px;
+            background-color: rgb(255, 255, 255);
+            font-size: 17px;
+           
+        }
+        
+        .botonSAL {
+            width: 170px;
+            height: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: absolute;
+            margin-left: -670px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            font-size: 17px;
+            
+        }
+        
+        h4 {
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            position: absolute;
+            left: 415px;
+            top: 100px;
+            margin-top: 50px;
+            margin-left: 40px;
+        }
